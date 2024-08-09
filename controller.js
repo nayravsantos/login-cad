@@ -29,7 +29,10 @@ function salvarUser(){
 
 // LIMPAR O TEXTO NO CAMPO DE ENTRADA
         document.getElementById('nomeUser').value = "";
-    }else{
+    }
+
+// SE 'NOMEUSER' NÃO FOR FORNECIDO (OU SEJA, FALSO), ESTE BLOCO SERÁ EXECUTADO
+    else{
         alert("Por favor informe um nome para cadastro");
     }
 }
