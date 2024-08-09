@@ -3,8 +3,8 @@
 function acessar(){
     let loginEmail =document.getElementById('loginEmail').value;
     let loginSenha = document.getElementById('loginSenha').value;
-    
-//
+
+// VERIFICA SE O 'LOGINEMAIL' OU 'LOGINSENHA' ESTÁ VAZIO OU INDEFINIDO
     if(!loginEmail || !loginSenha){
         alert("Favor preencher todos os campos");
     }else{
@@ -19,9 +19,12 @@ function salvarUser(){
     let nomeUser = document.getElementById
     ('nomeUser').value;
 
+// VEREFICA SE NÃO ESTA VAZIO OU INDEFINIDO (OU SEJA, VERDADEIRO)
     if(nomeUser){
         dadoLista.push(nomeUser);
         //console.log(dadosLista);
+
+// A FUNÇÃO 'CRIALISTA()' É ENTÃO CHAMADA PARA ATUALIZAR OU CRIAR A LISTA COM NOVOS DADOS 
         criaLista();
 
 // LIMPAR O TEXTO NO CAMPO DE ENTRADA
@@ -48,6 +51,8 @@ function criaLista(){
 // FUNÇÃO PARA EDITAR NOMES DE LISTA
 function editar(i){
     document.getElementById('nomeUser').value = dadosLista[(i - 1)];
+
+// REMOVE UM ELEMENTO DO ARRAY 
     dadoLista.splice(dadoLista[(i - 1)], 1);
 }
 
