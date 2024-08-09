@@ -23,6 +23,8 @@ Este arquivo HTML é uma página da web simples para registro de usuário. Ele p
 * Outro contêiner div contém uma tabela ( id="tabela").
 * A tabela usa classes Bootstrap ( table table-striped).
 
+![](Captura%20de%20tela%202024-08-09%20095819.png)
+
 # Login
 
 Esta é uma página de login simples para um aplicativo da web, projetada com HTML e Bootstrap. Ela permite que os usuários insiram seu e-mail e senha para fazer login.
@@ -32,9 +34,15 @@ Esta é uma página de login simples para um aplicativo da web, projetada com HT
 * CSS : Estilos personalizados devem ser adicionados em main.css.
 * JavaScript : A lógica para lidar com login deve ser implementada em controller.js.
 
+
 ## Uso
 1. Abra index.html em um navegador da web.
 2. Digite seu e-mail e senha nos respectivos campos.
 3. Clique no botão "ACESSAR" para tentar fazer login.
 4. Utilize o link "Cadastre-se" para navegar até a página de inscrição, se necessário.
  
+ 
+![](Captura%20de%20tela%202024-08-09%20095847.png)
+
+### Autor:
+[Nayra Vitória dos Santos](https://github.com/nayravsantos)
