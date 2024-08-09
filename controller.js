@@ -35,7 +35,6 @@ function salvarUser() {
         alert("Por favor informe um nome para cadastro");
     }
 }
-
 // FUNÇÃO PARA CRIAR LISTA DE USUÁRIOS
 function criaLista() {
     let tabela = document.getElementById('tabela').innerHTML = "<tr><th>Nome Usuário</th><th>Ações</th</th>";
