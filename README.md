@@ -23,7 +23,19 @@ Este arquivo HTML é uma página da web simples para registro de usuário. Ele p
 * Outro contêiner div contém uma tabela ( id="tabela").
 * A tabela usa classes Bootstrap ( table table-striped).
 
-![](Captura%20de%20tela%202024-08-09%20095819.png)
+# Componente de Formulário de Email
+ 
+Este projeto contém um componente de formulário simples, que inclui um campo para inserção de email.
+ 
+## Estrutura do Código
+ 
+O código HTML é composto pelos seguintes elementos:
+ 
+- **Div Container (`mb-3`)**: Um contêiner `<div>` com a classe `mb-3`, que aplica uma margem inferior ao elemento, garantindo espaçamento adequado entre ele e outros elementos no layout.
+- **Label (`<label>`)**: Um rótulo associado ao campo de email, utilizando o atributo `for` para ligar ao campo de entrada de email. O texto "Email:" é exibido para indicar o propósito do campo.
+- **Campo de Entrada de Email (`<input>`)**: Um campo de entrada do tipo `email`, que valida automaticamente se o valor inserido é um endereço de email válido. Este campo é estilizado com a classe `form-control` do Bootstrap, garantindo uma aparência uniforme e responsiva.
+
+<img src="img.jpeg">
 
 # Login
 
