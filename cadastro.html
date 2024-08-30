@@ -20,16 +20,22 @@
     <div class="container">
  <!-- Elemnto de cabeçalho da seção, exibindo "Cadastro".-->
         <h3>Cadastro</h3>
- <!-- Rótulo para campo de entrada.-->
-        <label for="">Nome:</label>
+ 
  <!-- Elemento de formulário com classe 'form-contol'.-->
-        <form action="" class="form-control">
+        <form action="" id="cpf-form">
+         <!-- Rótulo para campo de entrada.-->
+        <label for="">Nome:</label>
  <!-- Campo de entrada para inserir o nome de usuário, estilizado com a classe 'form-control'.-->
             <input type="text" class="form-control" id="nomeUser"> <br>
             <div class="mb-3">
                <label for="emailUser" class="form-label">Email:</label>
-               <input type="email" class="form-control" id="emailUser">
+               <input type="email"  class="form-control"  name="emailcad" id="emailUser">
+               
            </div>
+           <label for="">Cpf:</label>
+           <div class="mb-3">
+           <input type="text"  class="form-control"  name="cpfcad" id="cpf">
+         </div>
  <!-- Botão para acionar a fução 'salvarUser()' quando clicado.-->
             <button type="button" onclick="salvarUser()" class="btn btn-success">Salvar</button>
         </form>
@@ -42,6 +48,7 @@
             <tr>
                 <th>Nome Usuário</th>
                 <th>Ações</th>
+                <th>Cpf</th>
             </tr>
         </table>
 
