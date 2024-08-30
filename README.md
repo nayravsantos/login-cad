@@ -117,8 +117,6 @@ function salvarUser() {
 ````
 
 
-Claro! Aqui está a explicação adicionada ao README, conforme solicitado:
-
 Cadastro
 Visão geral
 Este arquivo HTML é uma página da web simples para registro de usuário. Ele permite que os usuários insiram seus nomes, salvem-nos e exibam uma lista de nomes salvos com opções para editar ou excluir cada entrada. A página utiliza Bootstrap para estilização e inclui funções JavaScript para lidar com interações do usuário.
